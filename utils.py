@@ -12,8 +12,6 @@ def addListBefore (list,before) :
         sufInd +=1
     return list
 
-
-
 # 调用正则获得想要的内容
 def myFindAll(pattern,str) :
     return re.findall(pattern,str,re.S)
